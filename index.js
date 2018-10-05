@@ -24,8 +24,12 @@ const driversByName = function (drivers) {
     return driverOne.name.localeCompare(driverTwo.name)
   })
 
-const totalRevenue = function (arr) {
-  return arr.reduce(function (total, currentDriver) {
-    return currentDriver.revenue + total
-  }, 0)
-}
+  const totalRevenue = function (drivers) {
+    return drivers.reduce(function (total, currentDriver) {
+      return currentDriver.revenue + total;
+    }, 0);
+  };
+
+  const averageRevenue = function (drivers) {
+    return totalRevenue(drivers) / drivers.length;
+  };
