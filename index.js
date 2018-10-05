@@ -7,6 +7,7 @@ function logDriverNames(arr) {
 
 function logDriversByHometown(arr, town) {
   arr.forEach(el => {
-    return (el.hometown.localeCompare(town) === 0) true : false
+    console.log(arr, town)
+    // return (el.hometown.localeCompare(town) === 0) true : false
   })
 }
