@@ -1,5 +1,6 @@
 // Code your solution in this file!
 function logDriverNames(arr) {
-  debugger
-  console.log(arr.name)
+  arr.forEach(el => {
+    console.log(el.name)
+  })
 }
