@@ -22,5 +22,6 @@ function driversByRevenue(arr) {
       newArr.push(b)
     }
   })
+  debugger
   return newArr
 }
