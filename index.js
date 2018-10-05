@@ -12,3 +12,8 @@ function logDriversByHometown(arr, town) {
     }
   })
 }
+
+function driversByRevenue(arr) {
+  debugger
+  arr.sort()
+}
