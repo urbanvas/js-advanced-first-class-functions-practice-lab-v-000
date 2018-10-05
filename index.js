@@ -22,4 +22,5 @@ function driversByRevenue(arr) {
       newArr.push(b)
     }
   })
+  return newArr
 }
